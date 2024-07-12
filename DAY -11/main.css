@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar{
+    background-color: red;
+    margin: auto;
+    padding: 30px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+
+
+.filterbox{
+    width: 20%;
+    background: white;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid transparent;
+    margin-top: 5%;
+    margin-left: 2%;
+    padding: 15px;
+    height: 682px;
+    text-align: center;
+    box-shadow: 15px 15px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+}
+.filter{
+    font-weight: bold;
+    font-family: "poppins" , sans-serif;
+    font-size: 30px;
+    
+}
+.cuisine,.location,.cost,.sort{
+    font-weight: 500;
+    font-family: "poppins" , sans-serif;
+    font-size: 20px;
+    
+
+}
+.cuisineoption{
+    margin-left: 10px;
+}
+
+
+.resultspanel{
+    background: white;
+    overflow: hidden;
+    border: 2px solid transparent;
+    box-shadow: 15px 15px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    margin-bottom: 30px;
+    width: 800px;
+    height: 291px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-top: 5px;
+
+
+
+}
+.resultspanel img{
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.resultsheading,.resultssubheading,.resultsaddress{
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    
+}
+.reheading{
+    padding-bottom: 5px;
+    padding-top: 12px;
+    padding-left: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+   
+
+}
+.subheading{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+.pagination{
+    display: flex;
+    padding-left: 30%;
+}
+.paginationButton{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 10px;
+    padding-top: 2px;
+    border-radius: 5px;
+    text-align: center;
+
+}
